@@ -140,17 +140,50 @@ header{
 }
 /*Blog end 01*/
 /*news start*/
-.news h1{
-	 padding: 75px;
-	 text-align:center;
-	 font-family: 'Playfair Display', serif;
-	 color: #626262;
-}
 .news{
-	min-height: 290px;
 	background-color: #f0f0f0;
+	padding: 70px 0;
 	/*border: 1px solid yellow;*/
 }
+.singup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;	
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 14px;
+	width: 385px;
+	height: 45px;
+	border: none;
+	border-bottom:1px solid #000000;
+	background-color: transparent;
+
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+
 /*news end*/
 /*blog 02*/
 .load{
@@ -179,19 +212,19 @@ header{
 footer{
 	padding: 15px 0;
 	background-color: #f0f0f0;
-	border: 1px solid;
+	/*border: 1px solid;*/
 }
 .containerf{
 	margin: 20px 0 20px 150px;
 	overflow: hidden;
 	width: 90%;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 }
 .menuf{
     float: left;
     width: 20%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .menuf ul{
 	list-style: none;
@@ -216,7 +249,7 @@ footer{
 .menulogo{
 	float: right;
 	width: 25%;
-	border: 1px solid;
+	/*border: 1px solid;*/
 }
 .menulogo ul{
 	list-style: none;
@@ -238,5 +271,3 @@ footer{
 }
 
 /*footer end*/
-
-  
