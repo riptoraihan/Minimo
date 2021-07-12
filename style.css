@@ -15,7 +15,7 @@ header{
 	/*border: 1px solid black;*/
 }
 .container{
-	margin: 0 auto;
+	margin: 20px auto;
 	overflow: hidden;
 	width: 90%;
 	/*border: 1px solid red;*/
@@ -175,59 +175,68 @@ header{
 }
 /*blog 02*/
 
-/*footer*/
-.footer{
-	padding: 30px 0;
-	background-color:#626262; 
-	/*border: 1px solid black;*/
-	
+/*footer start*/
+footer{
+	padding: 15px 0;
+	background-color: #f0f0f0;
+	border: 1px solid;
 }
 .containerf{
-
-	min-height: 100px;
-	margin: 0 auto;
+	margin: 20px 0 20px 150px;
 	overflow: hidden;
 	width: 90%;
-	background-color:#f0f0f0;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 
 }
-.terms{
-	float: left;
+.menuf{
+    float: left;
+    width: 20%;
+    border: 1px solid black;
 }
-.terms ul{
-	padding: 35px;
+.menuf ul{
 	list-style: none;
-	float: right;
+
 }
-.terms ul li{
+.menuf ul li {
 	float: left;
 }
-.terms ul li a{
-	margin: 0 10px;
+.menuf ul li a {
+	margin: 0 20px;
 	display: inline-block;
-	color: #282222;
-	text-transform: none;
+	color: #000000;
 	text-decoration: none;
 }
-
-
-.social{
-	float: right;
-	width: 70%;
-	/*border: 1px solid black;*/
+.menuf ul li:first-child {
+  margin:0;
+  /*background-color: yellow;*/
 }
-.social ul{
-	padding: 40px;
+.menuf ul li a:hover {
+	color: #B6AFAA;
+}
+.menulogo{
+	float: right;
+	width: 25%;
+	border: 1px solid;
+}
+.menulogo ul{
 	list-style: none;
-	
-}
-.social ul li{
 	float: right;
 }
-.social ul li a{
+.menulogo ul li{
 	margin: 0 20px;
+	display: inline-block;
+	color: #000000;
+	text-decoration: none;
 }
-/*footer*/
+.menulogo ul li:last-child{
+	margin: 0;
+}
+.menulogo ul li a{
+	margin: 0 10px;
+	text-decoration: none;
+	color: #000000;
+}
+
+/*footer end*/
 
   
